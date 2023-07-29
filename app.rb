@@ -50,7 +50,7 @@ class App
       print 'What is the teachers specialization: '
       specialization = gets.chomp
 
-      teacher = Teacher.new(name, age, specialization, parent_permission: true)
+      teacher = Teacher.new(age, name, specialization, parent_permission: true)
 
       @person << teacher
     end
